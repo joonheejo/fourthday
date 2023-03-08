@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- 배끼기 시작 -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="내 소개 페이지" />
+    <meta property="og:title" content="내 소개 페이지 만들기" />
+    <meta
+      property="og:description"
+      content="내 소개 페이지를 간단히 만들어보세요"
+    />
+    <meta property="og:image" content="/images/thumbnail.jpg" />
+
+    <title>조준희</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link href="/style.css" rel="stylesheet" />
+    <!-- 배끼기 끝 -->
+
+    <!-- bootstrap기본,구글폰트 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fabicon -->
+    <link rel="shortcut icon" href="Asset/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- 페이지 타입 -->
+    <meta property="og:type" content="website" />
+
+    <!-- 제목 -->
+    <meta property="og:title" content="프로젝트 제출본 조준희" />
+    <!-- 설명 -->
+    <meta property="og:description" content="3회차 프로젝트 제출 목적입니다" />
+    <!-- 대표 이미지 -->
+    <meta
+      property="og:image"
+      content="https://images.samsung.com/kdp/aboutsamsung/brand_identity/logo/720_600_1.png"
+    />
+    <style>
+      @media screen and (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          align-items: flex-end;
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hello</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#경력별명">경력</a>
+            <a class="nav-link" href="#취미별명">취미</a>
+            <a class="nav-link" href="#기타별명">기타</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+    <main>
+      <div class="d-md-flex flex-md-equal w-100 h-100">
+        <div class="text-center" style="background-color: blue">
+          <h1>Bootstrap을 활용해 반응형 모바일 페이지 만들기</h1>
+        </div>
+        <div class="text-center bg-light">
+          <p class="my-3">
+            다양한 태그와 라이브러리를 사용하여 자유롭게 표현해보세요
+          </p>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100">
+        <div>
+          <article id="experience" class="bootstrap-post">
+            <h3 class="bootstrap-post-title mb-1 text-center">
+              <a name="경력별명"></a>💼 경력
+            </h3>
+            <p class="text-center">OL을 활용하여 리스트를 표현해보세요</p>
+            <ol>
+              <li class="text-center">첫번째</li>
+              <li class="text-center">두번째</li>
+              <li class="text-center">세번째</li>
+            </ol>
+          </article>
+        </div>
+        <div class="text-center bg-light">
+          <p>DL을 활용하여 리스트를 표현해보세요</p>
+          <dl>
+            <dt>HyperText Markup Language (HTML)</dt>
+            <dd>HTML이란?</dd>
+            <dt>Cascading Style Sheets (CSS)</dt>
+            <dd>CSS란?</dd>
+            <dt>JavaScript (JS)</dt>
+            <dd>JS란?</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100">
+        <div class="text-center">
+          <h2><a name="취미별명"></a>🧗🏻‍♀️ 취미</h2>
+          <h3 class="text-center">헤딩 활용하기</h3>
+          <div>
+            div 요소는 플로우 콘텐츠를 위한 통용 컨테이너입니다. CSS로 꾸미기
+            전에는 콘텐츠나 레이아웃에 어떤 영향도 주지 않습니다.
+          </div>
+        </div>
+        <br />
+        <div class="text-center bg-light">
+          <h3>서브 헤딩</h3>
+          P 요소는 하나의 문단을 나타냅니다. 시각적인 매체에서 문단은 보통 인접
+          블록과의 여백과 첫 줄의 들여쓰기로 구분하지만, HTML에서 문단은
+          이미지나 입력 폼 등 서로 관련있는 콘텐츠 무엇이나 될 수 있습니다.
+          <br />
+        </div>
+      </div>
+      <br />
+      <div class="d-md-flex flex-md-equal w-100">
+        <div class="text-center">
+          <h2><a name="기타별명"></a>😀 기타</h2>
+          <h3>아직 더 표현하고 싶은게 있으신가요?</h3>
+          <p>아직도<mark>다양한 태그</mark>들이 남았답니다.</p>
+          <br />
+          <p>
+            <a
+              href="https://developer.mozilla.org/ko/docs/Web/HTML/Element"
+              target="_blank"
+              >여기에서</a
+            >
+            더 다양한 태그들을 확인해보시고 간단하게 사용해보세요
+          </p>
+        </div>
+
+        <div class="text-center bg-light">
+          <p>
+            이미 만들어진 간단한 부트스트랩 스타일을 사용하고 싶다면?
+            <a href="https://getbootstrap.com" target="_blank">
+              부스트스트랩 문서를 참고해보세요
+            </a>
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="d-md-flex flex-md-equal w-100">
+        <div class="text-center">
+          <h4>About</h4>
+          <div>
+            저에 대해 더 궁금하신가요? 자세히 알고 싶다면 아래의 소셜을
+            확인해주세요
+          </div>
+        </div>
+        <div class="text-center" style="background-color: red">
+          <h4>Social</h4>
+          <ol class="list-unstyled">
+            <li><a href="https://ko-kr.facebook.com/">페이스북</a></li>
+            <li><a href="https://www.instagram.com/">인스타그램</a></li>
+            <li><a href="mailto:ppiiggzzz@naver.com">메일 보내기</a></li>
+            <li><a href="tel:010-0000-0000">전화 걸기</a></li>
+          </ol>
+
+          <p>
+            <a href="#">Back to top</a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- bootstrap 기본 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
